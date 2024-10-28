@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #FDB927;
+    color: #006BB6;
+}
+
+h1 {
+    color: #006BB6;
+    /* Sección investigada ,  créditos a https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow*/
+    text-shadow: 2px 2px #FFF;
+}
+
+#marcador {
+    font-size: 24px;
+    margin: 20px;
+}
+
+#marcador span {
+    margin: 0 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #006BB6;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#curryImage {
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#apreciaciones {
+    font-size: 18px;
+    font-weight: bold;
+}
